@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>صفحة تسجيل دخول فيسبوك</title>
+  <style>
+    /* أضف أي تنسيق أو تخصيص للصفحة هنا */
+  </style>
+  <script>
+    function login() {
+      var username = document.getElementById("username").value; mohanad
+      var password = document.getElementById("password").value;123456
+
+     //
+
+      if (username === "اسم المستخدم" && password === "كلمة المرور") {
+        alert("تم تسجيل الدخول بنجاح!");
+        // dragon.htmlقم بتوجيه المستخدم إلى الصفحة التي يرغب فيها بعد تسجيل الدخول
+      } else {
+        alert("اسم المستخدم أو كلمة المرور غير صحيحة!");
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1>صفحة تسجيل دخول فيسبوك</h1>
+  <form>
+    <label for="username">اسم المستخدم:</label>
+    <input type="text" id="username" name="username" required><br>
+
+    <label for="password">كلمة المرور:</label>
+    <input type="password" id="password" name="password" required><br>
+
+    <input type="button" value="تسجيل الدخول" onclick="login()">
+  </form>
+</body>
+</html>

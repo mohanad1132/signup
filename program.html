@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>واجهة البرنامج</title>
+</head>
+<body>
+    <h2> welcom</h2><hr />
+    <form action="parnamig.html">
+    <label for="name">name:</label>
+    <input type="text" id="name">
+
+    <button onclick="greet()">ok</button>
+    <script>
+        function greet() {
+            var name = document.getElementById("name").value;
+            alert("welcom " + name + "!");
+        }
+    </script>
+</body>
+</html>
